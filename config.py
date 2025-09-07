@@ -7,19 +7,19 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = API_ID
-API_HASH = "API_HASH"
+API_ID = 23679210
+API_HASH = " de1030f3e6fa64f9d41540b1f6f53b7a"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "BOT_TOKEN"
+BOT_TOKEN = "8402556229:AAFoObA9xY1civbmkLXGhtRGGyQVN0gT0uM"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "MONGO_DB_URI"
+MONGO_DB_URI = "mongodb+srv://nikfury21:nikhil@21@cluster0.zxenev9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = LOG_GROUP_ID
+LOG_GROUP_ID = -1002899517226
 
 # Get this value from @ultron2_robot on Telegram by /id
 OWNER_ID = 7038303029
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "STRING_SESSION"
+STRING1 = "BQFpUOoAOWIkIyDFDazcsEG2JxJDlpY-FheC39M8kgBGb35OBeYt6m_5d7Ufho1qwQ0AlUNB_v0Fm-1Y8pjpHyIup_OqQCPgGv-qDo9sIhaeAin8DaNYDQ1E-FAC2UuLWQDDsnDCGZ3BL7cQ2b4FIoe0OfNafOSHGxIjd-p30MQmEcBwaEmsoMOmQ3-z2D-tsKbyDc40Bm55p2yZnIHz2UQ2e3b43gv_P1uHFUleT6NNgbHsc4-PuraTb58W3bvXuAFNxJwJUL1HW_jZflKKBDYaW4zUa6H4aszweO1IoG-h3J3PjsA1pDvLlRwoHsovJsqPiQ3SNlvn5fMq9gZOmzH95D71PQAAAAGvMqHnAA"
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -112,5 +112,6 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
